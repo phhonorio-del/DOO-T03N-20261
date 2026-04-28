@@ -3,6 +3,6 @@ public class Endereco {
     int numero;
 
     public void apresentarLogradouro() {
-        System.out.println("📍 " + rua + ", " + numero + " - " + bairro + " (" + cidade + "/" + estado + ")");
+        System.out.println(rua + ", " + numero + " - " + bairro + " (" + cidade + "/" + estado + ")");
     }
 }
